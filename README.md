@@ -5,13 +5,13 @@
 
 ##All datas in txt File
 
-### Linear Regression with Multiple Features
+## Linear Regression with Multiple Features
 * the selling price of a house and multiple factors(11)
 * I used linear regression the gradient descent and the normal equation
 * I tried different learning rate and visualized in gradient descent.
 * I got the result of house price using normal equation(45.89) and gradient descent(52.11).
 
-## the gradient descent function and visualized image
+### the gradient descent function and visualized image
 ```
 def normalz(x):
     mu = np.mean(x, axis = 0)
@@ -43,13 +43,13 @@ def gradient(X, y, theta, learning_rate, iterations):
 ![3](https://user-images.githubusercontent.com/76150392/139625955-18a64025-d3f6-45b8-b0c8-92f31b9df29f.GIF)
 
 
-### Logistic Regression
+## Logistic Regression
 * national test scores for students who applied for a certain university and las column indicated admitted result.
 * My logistic regression model's performance is 88.89%.
 * I tried visualize the decision boundary.
 * I got the result of each students of predict admitted result(b,d student are admiteed and a, c student are not).
 
-## Logistic Regression function and visualized image
+### Logistic Regression function and visualized image
 ```
 from scipy.optimize import fmin_tnc as fm
 class LogisticRegression:
